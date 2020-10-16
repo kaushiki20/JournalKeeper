@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Modals from "../Components/Modals";
 import Button from "@material-ui/core/Button";
-import Journal from "../Components/Journal";
 import InputBase from "@material-ui/core/InputBase";
 import SearchIcon from "@material-ui/icons/Search";
 import {
@@ -117,7 +116,6 @@ const Home = () => {
 					</Button>
 				</div>
 			</div>
-			<Journal />
 
 			<Modals
 				open={open}
